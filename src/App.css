@@ -36,3 +36,163 @@
     transform: rotate(360deg);
   }
 }
+
+.ladning_main{
+  background-image: url('./assets/1-Z17UsT2m2giqJI37-EbdWQ.webp');
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+.sidebar{
+  width: 100px;
+  position: absolute;
+  left: 0;
+}
+.sidebar ul{
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar ul li{
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+.homepage,.players{
+  padding: 10px;
+  margin-left: 100px;
+}
+
+.form-container {
+  max-width: 600px; 
+  margin: 20px auto; 
+  padding: 20px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   
+  background-color: #ffffff; 
+}
+
+.form-label {
+  font-weight: bold; 
+  margin-bottom: 10px; 
+}
+
+.form-control {
+  margin-top: 10px;
+  border: 1px solid #ced4da; 
+  border-radius: 4px; 
+  padding: 10px 10px; 
+  font-size: 16px;
+  width: -webkit-fill-available; 
+  transition: border-color 0.3s; 
+}
+
+.form-control:focus {
+  border-color: #80bdff; 
+  outline: none; 
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+}
+
+.select-container {
+  margin-top: 15px; 
+}
+
+.Select__control {
+  border: 1px solid #ced4da; 
+  border-radius: 4px; 
+  box-shadow: none; 
+  transition: border-color 0.3s; 
+}
+
+.Select__control--is-focused {
+  border-color: #80bdff; 
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+}
+
+.Select__multi-value {
+  background-color: #007bff; 
+  color: white; 
+  border-radius: 2px; 
+  padding: 2px 6px; 
+}
+
+.Select__multi-value__label {
+  color: white; 
+}
+
+.Select__multi-value__remove {
+  cursor: pointer; 
+  color: white; 
+}
+
+.Select__multi-value__remove:hover {
+  background-color: rgba(0, 123, 255, 0.5); 
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.button {
+  margin-top: 15px;
+  background-color: #007bff;
+  color: white; 
+  border: none; 
+  border-radius: 5px;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.2s; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.button:hover {
+  background-color: #0056b3; 
+  transform: translateY(-2px); 
+}
+
+.button:active {
+  transform: translateY(1px); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* TableStyles.css */
+
+.table {
+  width: 100%; /* Full width */
+  margin: 20px auto; /* Center the table */
+  border-collapse: collapse; /* Remove space between borders */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* To apply rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.table thead {
+  background-color: #007bff; /* Header background color */
+  color: white; /* Header text color */
+}
+
+.table th {
+  padding: 12px; /* Padding for table headers */
+  text-align: left; /* Left align text */
+  font-weight: bold; /* Bold text */
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #dee2e6; /* Bottom border for rows */
+}
+
+.table tbody td {
+  padding: 12px; /* Padding for table cells */
+  text-align: left; /* Left align text */
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.table tbody tr:last-child {
+  border-bottom: none; /* Remove border for last row */
+}
